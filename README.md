@@ -3,7 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mahmoud-elboshy/laravel-hierarchical-billing.svg)](https://packagist.org/packages/mahmoud-elboshy/laravel-hierarchical-billing)
 [![License](https://img.shields.io/github/license/Mahmoud-ElBoshy/laravel-hierarchical-billing)](LICENSE.md)
 [![PHP Version](https://img.shields.io/badge/PHP-8.1%2B-blue)](https://php.net)
-[![Laravel Version](https://img.shields.io/badge/Laravel-10%2B-red)](https://laravel.com)
+[![Laravel Version](https://img.shields.io/badge/Laravel-10%2B%2011%2B%2012%2B%2013%2B-red)](https://laravel.com)
 
 A Laravel package for managing **hierarchical account billing** — supporting subscription, per-event, and sub-account billing models within a single tenant.
 
@@ -31,7 +31,7 @@ No existing package handles this out of the box. This one does.
 - ✅ **Transaction tracking** — full audit trail for every charge
 - ✅ **Trial & Grace periods** — configurable out of the box
 - ✅ **Gateway agnostic** — works with any payment gateway
-- ✅ **Laravel 10 & 11** support
+- ✅ **Laravel 10, 11, 12 & 13** support
 
 ---
 
