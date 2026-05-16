@@ -1,0 +1,49 @@
+{
+    "name": "mahmoud-elboshy/laravel-hierarchical-billing",
+    "description": "A Laravel package for managing hierarchical account billing — supporting subscription, per-event, and sub-account billing models within a single tenant.",
+    "keywords": ["laravel", "billing", "multi-tenant", "saas", "subscription", "hierarchical", "sub-account"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahmoud El Boshy",
+            "email": "mahmoudelboshy@gmail.com",
+            "homepage": "https://github.com/Mahmoud-ElBoshy"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0",
+        "illuminate/database": "^10.0|^11.0",
+        "illuminate/events": "^10.0|^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-laravel": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MahmoudElBoshy\\HierarchicalBilling\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MahmoudElBoshy\\HierarchicalBilling\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MahmoudElBoshy\\HierarchicalBilling\\HierarchicalBillingServiceProvider"
+            ],
+            "aliases": {
+                "HierarchicalBilling": "MahmoudElBoshy\\HierarchicalBilling\\Facades\\HierarchicalBilling"
+            }
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
